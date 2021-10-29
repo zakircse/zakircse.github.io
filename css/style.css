@@ -3,6 +3,12 @@ body{
 }
 .nav-container{
     background-color: #7952B3;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.about-container,.project-container,.online-container{
+    background-color: #7952B3;
 }
 .banner-container{
     background-image: url("/img/tech-img.jpg");
@@ -21,15 +27,41 @@ body{
     border: 1px solid #FFE484;
 }
 .mybtn:hover{
-    color: black;
+    color: #7952B3;
     background-color: #FFE484;
-}
-.about-container{
-    background-color: #7952B3;
 }
 .circle{
     background-color: #7952B3;
     width: 150px;
     height: 150px;
     border-radius: 50%;
+}
+.inner-form{
+    background-color: #7952B3;
+}
+.subbtn{
+    background-color: #7952B3;
+    color: #fff;
+    border: 1px solid #7952B3;
+}
+.subbtn:hover{
+    color: #fff;
+}
+.footer{
+    background-color: #7952B3;
+}
+.circle-icon{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: transparent;
+    border: 1px solid #FFE484;
+    color: #FFE484;
+    font-size: 40px;
+    text-align: center;
+}
+.circle-icon:hover{
+    background-color: #FFE484;
+    color: #7952B3;
 }
