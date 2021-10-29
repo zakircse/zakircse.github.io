@@ -1,3 +1,35 @@
 body{
     font-family: 'Lato', sans-serif;
 }
+.nav-container{
+    background-color: #7952B3;
+}
+.banner-container{
+    background-image: url("/img/tech-img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+}
+.banner-column{
+    background-color: #7952B3;
+    max-width: 700px;
+}
+.mybtn{
+    background-color: transparent;
+    color: #FFE484;
+    border: 1px solid #FFE484;
+}
+.mybtn:hover{
+    color: black;
+    background-color: #FFE484;
+}
+.about-container{
+    background-color: #7952B3;
+}
+.circle{
+    background-color: #7952B3;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
