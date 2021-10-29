@@ -11,7 +11,7 @@ body{
     background-color: #7952B3;
 }
 .banner-container{
-    background-image: url("/img/tech-img.jpg");
+    background-image: url("/img/banner-bg-1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
