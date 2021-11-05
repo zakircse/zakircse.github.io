@@ -50,14 +50,21 @@ body{
 .footer{
     background-color: #7952B3;
 }
-.circle-icon{
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
+.link{
     display: inline-block;
-    font-size: 40px;
-    text-align: center;
+    padding: 0 10px;
 }
-.circle-icon i{
-    color: #fff;
+.link a{
+    text-decoration: none;
+    
+}
+.link a h5{
+    color: #FFE484;
+    border: 1px solid #FFE484;
+    padding: 5px;
+    font-weight: bolder;
+}
+.link a:hover h5{
+    color: #7952B3;
+    background-color: #FFE484;
 }
