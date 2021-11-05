@@ -55,13 +55,9 @@ body{
     height: 60px;
     border-radius: 50%;
     display: inline-block;
-    background-color: transparent;
-    border: 1px solid #FFE484;
-    color: #FFE484;
     font-size: 40px;
     text-align: center;
 }
-.circle-icon:hover{
-    background-color: #FFE484;
-    color: #7952B3;
+.circle-icon i{
+    color: #fff;
 }
